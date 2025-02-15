@@ -1,0 +1,11 @@
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/Main.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/database/DatabaseConnection.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/model/Assignment.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/model/User.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/service/AssignmentService.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/service/EmailService.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/service/UserService.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/ui/AssignmentDialog.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/ui/DashboardFrame.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/ui/LoginFrame.java
+/Users/shlokbam/Documents/Code/assignment-tracker/src/main/java/com/assignmenttracker/ui/RegisterFrame.java
