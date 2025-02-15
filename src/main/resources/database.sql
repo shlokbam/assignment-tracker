@@ -1,0 +1,20 @@
+CREATE DATABASE assignment_tracker;
+USE assignment_tracker;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE assignments (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    title VARCHAR(255) NOT NULL,
+    course_name VARCHAR(255) NOT NULL,
+    due_date DATETIME NOT NULL,
+    status ENUM('NOT_STARTED', 'IN_PROGRESS', 'COMPLETED') DEFAULT 'NOT_STARTED',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
